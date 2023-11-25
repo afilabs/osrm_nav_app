@@ -1,0 +1,36 @@
+.address-input-container {
+  position: relative;
+
+  input {
+    border: 0;
+    height: 20px;
+    background-color: #F4F4F4;
+    width: 304px;
+    border-radius: 8px;
+    padding: 12px;
+    color: #212121;
+  }
+
+  .address-suggestions {
+    position: absolute;
+    top: 1.75em;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 4px;
+    z-index: 999;
+    padding: 0;
+
+    li {
+      list-style: none;
+      border-bottom: 0.5px solid #aaa;
+      padding: 0.5em 1em;
+
+      &:hover {
+        // background-color: rgb(22, 66, 128);
+        background-color: #F9F9F9;
+        // color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
