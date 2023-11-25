@@ -1,6 +1,6 @@
 # osrm_nav_app
 
-![OSRM Route API: Free turn by turn directions and polylines](https://blog.afi.io/content/images/size/w1600/2023/11/Screen-Shot-2023-11-24-at-9.20.46-AM-1.png "OSRM Route API: Free turn by turn directions and polylines")
+![OSRM Route API: Free turn by turn directions and polylines](https://blog.afi.io/content/images/size/w1600/2023/11/osrm--2-.png "OSRM Route API: Free turn by turn directions and polylines")
 
 Taken from: 
 - [Introduction to OSRM: Setting up osrm-backend using Docker (part 1 of 4)](https://www.afi.io/blog/introduction-to-osrm-setting-up-osrm-backend-using-docker/)
