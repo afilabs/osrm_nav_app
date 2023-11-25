@@ -112,7 +112,6 @@ export default function App() {
           />
         </div>
       </div>
-      <img width={24} alt="Address control icon" src={ArrowImportExport} />
     </>
   );
 
