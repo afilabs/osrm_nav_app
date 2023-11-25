@@ -1,18 +1,20 @@
-### `npm start`
+# osrm_nav_app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![OSRM Route API: Free turn by turn directions and polylines](https://blog.afi.io/content/images/size/w1600/2023/11/Screen-Shot-2023-11-24-at-9.20.46-AM-1.png "OSRM Route API: Free turn by turn directions and polylines")
 
-### `npm test`
+Taken from: 
+- [Introduction to OSRM: Setting up osrm-backend using Docker (part 1 of 4)](https://www.afi.io/blog/introduction-to-osrm-setting-up-osrm-backend-using-docker/)
+- [Hosting the OSRM API on EC2: Running osrm-backend as a web service (part 2 of 4)](https://www.afi.io/blog/hosting-the-osrm-api-on-amazon-ec2-running-osrm-backend-as-a-web-service)
+- [OSRM Route API: Free turn by turn directions and polylines (part 3 of 4)](https://afi.io/blog/osrm-route-api-free-directions-api-with-turn-by-turn-directions-and-polylines)
+- OSRM Table API: Free distance matrix API (coming soon)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ How to run the app:
+ 1. cd into your project
+ 2. Create a .env file with the following parameters: 
+    ```
+    REACT_APP_MAPBOX_ACCESS_TOKEN={MAPBOX_ACCESS_TOKEN}
+    ```
+ 3. Open terminal and run `npm install` (this will install the required dependencies)
+ 4. Run `npm start`
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Please contact afian@afi.io if you have any questions or suggestions. Pull requests are welcome.
